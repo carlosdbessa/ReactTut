@@ -10,49 +10,59 @@ function Products() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <ProductItem
-                        src='images/img-9.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg' 
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite de Burra'
                         path = '/services'
                         />
                         <ProductItem
-                        src='images/img-8.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg'
+                        text ='Com aromas do rio Nilo e Jinseng'
+                        label ='Leite de Cabra'
                         path = '/services'
                         />
                         <ProductItem
-                        src='images/img-7.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg'  
+                        text ='Com aromas do rio Nilo e Jinseng'
+                        label ='Leite de Vaca'
                         path = '/services'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <ProductItem
-                        src='images/img-9.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg'  
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite em Pó'
                         path = '/services'
                         />
+                       
+                    </ul>
+                    <ul className='cards__items'>
                         <ProductItem
-                        src='images/img-8.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg'  
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite em Pó'
                         path = '/services'
                         />
+                       
+                    </ul>
+                    <ul className='cards__items'>
                         <ProductItem
-                        src='images/img-7.jpg' 
-                        text ='Explore the hidden waterfall deep
-                        inside the Amazon Jungle'
-                        label ='Adventure'
+                        src='images/sabonete.jpg'  
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite em Pó'
                         path = '/services'
                         />
+                       
+                    </ul>
+                    <ul className='cards__items'>
+                        <ProductItem
+                        src='images/sabonete.jpg'  
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite em Pó'
+                        path = '/services'
+                        />
+                       
                     </ul>
                 </div>
             </div>
