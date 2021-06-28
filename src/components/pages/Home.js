@@ -1,6 +1,7 @@
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
+import Products from './Products';
 import Footer from './Footer';
 //import React from 'react'
  
@@ -8,6 +9,7 @@ import Footer from './Footer';
      return (
          <>
             <HeroSection />
+            <Products />
             {/* <Cards /> */}
             <Footer />
          </>
