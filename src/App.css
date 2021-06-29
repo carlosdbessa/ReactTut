@@ -15,7 +15,16 @@
     justify-content: center;
     font-size: 3rem;
   }
-  
+
+  .home {
+    background-image: url('/src/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
   .products {
     background-image: url('/src/images/img-2.jpg');
     background-position: center;

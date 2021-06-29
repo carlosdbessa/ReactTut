@@ -29,20 +29,20 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Sobre Nós</h2>
-                        <Link to='/sign-up'>Quem Somos !!!</Link>
+                        <Link to='/'>Quem Somos !!!</Link>
                         <Link to='/'>Testemunhos</Link>
                         <Link to='/'>Termos de Serviços</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contacte-nos</h2>
-                        <Link to='/sign-up'>Contactos</Link>
+                        <Link to='/'>Contactos</Link>
                         <Link to='/'>FAQ</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Redes Sociais</h2>
-                        <Link to='/sign-up'>Instagram</Link>
+                        <Link to='/'>Instagram</Link>
                         <Link to='/'>Facebook</Link>
                     </div>
                 </div>

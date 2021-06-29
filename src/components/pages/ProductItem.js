@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Products.css';
 
 function ProductItem(props) {
     return (
@@ -11,7 +12,7 @@ function ProductItem(props) {
                     alt='Travel Image'
                     className='products__item__img'/>
                 </figure>
-                <div className='productss__item__info'>
+                <div className='products__item__info'>
                     <h5 className='products_item_text'>{props.text}</h5>
                 </div>
             </Link>
