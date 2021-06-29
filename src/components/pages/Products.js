@@ -55,15 +55,7 @@ function Products() {
                         />
                        
                     </ul>
-                    <ul className='cards__items'>
-                        <ProductItem
-                        src='images/sabonete.jpg'  
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite em Pó'
-                        path = '/services'
-                        />
-                       
-                    </ul>
+                    
                 </div>
             </div>
         </div>
