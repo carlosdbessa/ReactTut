@@ -29,9 +29,9 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Sobre Nós</h2>
-                        <Link to='/sign-up'>Quem !!!</Link>
+                        <Link to='/sign-up'>Quem Somos !!!</Link>
                         <Link to='/'>Testemunhos</Link>
-                        <Link to='/'>Terms of service</Link>
+                        <Link to='/'>Termos de Serviços</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contacte-nos</h2>
