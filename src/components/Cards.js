@@ -21,49 +21,24 @@ function Cards() {
                         label ='Leite de Cabra'
                         path = '/services'
                         />
+                       
+                    </ul>
+                    <ul className='cards__items'>
                         <CardItem
-                        src='images/sabonete.jpg'  
+                        src='images/sabonete.jpg' 
+                        text ='Com aromas do rio Nilo e Lavanda'
+                        label ='Leite de Burra'
+                        path = '/services'
+                        />
+                        <CardItem
+                        src='images/sabonete.jpg'
                         text ='Com aromas do rio Nilo e Jinseng'
-                        label ='Leite de Vaca'
-                        path = '/services'
-                        />
-                    </ul>
-                    <ul className='cards__items'>
-                        <CardItem
-                        src='images/sabonete.jpg'  
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite em Pó'
+                        label ='Leite de Cabra'
                         path = '/services'
                         />
                        
                     </ul>
-                    <ul className='cards__items'>
-                        <CardItem
-                        src='images/sabonete.jpg'  
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite em Pó'
-                        path = '/services'
-                        />
-                       
-                    </ul>
-                    <ul className='cards__items'>
-                        <CardItem
-                        src='images/sabonete.jpg'  
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite em Pó'
-                        path = '/services'
-                        />
-                       
-                    </ul>
-                    <ul className='cards__items'>
-                        <CardItem
-                        src='images/sabonete.jpg'  
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite em Pó'
-                        path = '/services'
-                        />
-                       
-                    </ul>
+                    
                 </div>
             </div>
         </div>

@@ -8,7 +8,6 @@ import Footer from './Footer';
      return (
          <>
             <HeroSection />
-            
             <Cards />
             <Footer />
          </>
