@@ -7,6 +7,7 @@
 }
 
 body {
+  background-image:url('/src/images/pastel.jpg'); ;
   background-color: rgb(248, 246, 253);
 }
 
@@ -35,12 +36,19 @@ button {
   margin-bottom: 50px;
 }
 
+.form > label {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .form > input,
 textarea {
   padding: 20px;
   border-radius: 3px;
-  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); 
   margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   border: 1px solid lightgray;
   /* border: none; */
   background: #fff;
@@ -55,8 +63,9 @@ textarea:focus {
 }
 
 .form > textarea {
+  display: flex;
   height: 150px;
-  max-width: 200px;
+  max-width: 600px;
   min-height: 50px;
 }
 
@@ -77,6 +86,9 @@ textarea:focus {
   cursor: pointer;
   transition: 0.2s ease-in-out;
   margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .form > button:hover {
