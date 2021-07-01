@@ -33,6 +33,14 @@ const Contact = () => {
     setMessage("");
   };
 
+  db.collection('mail').add({
+    to: 'carlbessa1618@gmail.com',
+    message: {
+      subject: 'Hello from Firebase!',
+      html: 'This is an <code>HTML</code> email body.',
+    },
+  })
+
   return (
     <form className="form" onSubmit={handleSubmit}>
       <h1>Contacte-nos</h1>

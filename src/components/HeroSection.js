@@ -1,7 +1,10 @@
   import React from 'react'
   import '../App.css';
   import './HeroSection.css';
-  import { Link } from 'react-router-dom';
+  import { Link } from 'react-scroll';
+
+
+
   
   function HeroSection() {
       return (
@@ -11,7 +14,7 @@
               <p>Em breve algo que irá revolucionar a higiene do seu bebé!</p>
               
               <div className="hero-btns">
-              <Link to="#Products_Form" className="btns btn--outline">Produtos</Link>
+              <Link to="productsform" className="btns btn--outline">Produtos</Link>
                   {/* <Link href="#Products_Form">
                   <Button className='btns'
                    buttonStyle='btn--outline'
