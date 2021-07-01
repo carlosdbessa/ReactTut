@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../App.css";
+import "./Contacts.css";
 import { db } from "../../firebase";
 
 
@@ -23,7 +24,7 @@ const Contact = () => {
         })
         .then(() => {
           setLoader(false);
-          alert("Your message has been submitted👍");
+          alert("Mensagem Enviada");
         })
         .catch((error) => {
           alert(error.message);
@@ -62,7 +63,7 @@ const Contact = () => {
   
         <button
           type="submit"
-          style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
+          style={{ background: loader ? "#ccc" : " rgb(153, 255, 204) " }}
         >
           ENVIAR
         </button>
