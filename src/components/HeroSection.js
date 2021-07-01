@@ -12,7 +12,7 @@
               <div className="hero-btns">
                   <Button className='btns'
                    buttonStyle='btn--outline'
-                   buttonSize='btn-large'> Produtos </Button>
+                   buttonSize='btn-large'> Productos </Button>
                    {/* <Button className='btns'
                    buttonStyle='btn--primary'
                    buttonSize='btn-large'> Watch us <i className='far fa-play-circle' />
