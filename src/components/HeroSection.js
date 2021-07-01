@@ -11,7 +11,7 @@
               <p>Em breve algo que irá revolucionar a higiene do seu bebé!</p>
               
               <div className="hero-btns">
-              <Link href="#Products_Form" className="btns btn--outline">Sign up</Link>
+              <Link href="#Products_Form" className="btns btn--outline">Produtos</Link>
                   {/* <Link href="#Products_Form">
                   <Button className='btns'
                    buttonStyle='btn--outline'
