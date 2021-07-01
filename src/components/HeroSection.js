@@ -8,7 +8,7 @@
           <div className='hero-container'>
               <video src ="/videos/video-1.mp4" autoPlay loop muted />
               <h1>The Baby Soap</h1>
-              <p>O seu leite na higiene do seu bebé</p>
+              <p>Em breve algo que irá revolucionar a higiene do seu bebé!</p>
               <div className="hero-btns">
                   <Button className='btns'
                    buttonStyle='btn--outline'
