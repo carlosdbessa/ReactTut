@@ -92,11 +92,11 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('service_iymfi2i', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+    emailjs.sendForm('service_16w735o', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
-            console.log(error.text);
+            console.log(error.text); 
         });
         e.target.reset()
     }
@@ -106,22 +106,32 @@ export default function ContactUs() {
             <div className="container">
             <form onSubmit={sendEmail}>
 
-                    <div className="row pt-5 mx-auto">
+                    {/* <div className="row pt-5 mx-auto"> */}
+
                         <div className="col-8 form-group mx-auto">
+                        
                             <input type="text" className="form-control" placeholder="Nome" name="name"/>
                         </div>
+
                         <div className="col-8 form-group pt-2 mx-auto">
+                        
                             <input type="email" className="form-control" placeholder="e-mail" name="email"/>
                         </div>
+
                         <div className="col-8 form-group pt-2 mx-auto">
+                        
                             <input type="text" className="form-control" placeholder="Assunto" name="subject"/>
                         </div>
+
                         <div className="col-8 form-group pt-2 mx-auto">
+                        
                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Mensagem" name="message"></textarea>
                         </div>
                         
                         <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Enviar"></input>
+                            <button>
+                            <input type="submit" className="btn--primary" value="Enviar"></input>
+                            </button>
                         </div>
                         
                         {/* <div class="container-contact100-form-btn">
@@ -133,7 +143,7 @@ export default function ContactUs() {
 					</button>
 				    </div> */}
 
-                    </div>
+                    {/* </div> */}
                 </form>
             </div>
         </div>
