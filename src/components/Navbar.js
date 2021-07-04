@@ -1,8 +1,9 @@
 
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './Navbar.css';
 import {Button} from './Button';
+import { Link } from 'react-scroll';
 
 function Navbar() {
 
@@ -49,7 +50,7 @@ function Navbar() {
                             </Link>
                         </li> */}
                         <li className='nav-item'>
-                            <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="contactsform" className='nav-links' onClick={closeMobileMenu}>
                                CONTACTOS
                             </Link>
                         </li>

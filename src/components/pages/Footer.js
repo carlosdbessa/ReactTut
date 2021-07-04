@@ -39,9 +39,9 @@ function Footer() {
                     <div className='social-icons'>
                        
                         
-                        <a className='social-icon-link facebook' href="mailto:pedidos@babysoap.pt" target="_blank">
+                        <a className='social-icon-link mail' href="mailto:pedidos@babysoap.pt" target="_blank">
                         <i className='fab fa-facebook f'/></a>
-                        <a className='social-icon-link facebook' href="https://instagram.com/thebabysoap" target="_blank">
+                        <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
                         <i className='fab fa-instagram'/></a>
                         
                         

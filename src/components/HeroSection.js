@@ -9,7 +9,7 @@
   function HeroSection() {
       return (
           <div className='hero-container'>
-              <video src ="/videos/video-1.mp4" autoPlay loop muted />
+              
               <h1>The Baby Soap</h1>
               <p>Em breve algo que irá revolucionar a higiene do seu bebé!</p>
               

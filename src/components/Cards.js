@@ -12,33 +12,13 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                         src='images/sabonete.jpg' 
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite de Burra'
-                        path = '/services'
-                        />
-                        <CardItem
-                        src='images/sabonete.jpg'
-                        text ='Com aromas do rio Nilo e Jinseng'
-                        label ='Leite de Cabra'
+                        text ='Aromatizante de Lavanda'
+                        label ='s'
                         path = '/services'
                         />
                        
                     </ul>
-                    <ul className='cards__items'>
-                        <CardItem
-                        src='images/sabonete.jpg' 
-                        text ='Com aromas do rio Nilo e Lavanda'
-                        label ='Leite de Burra'
-                        path = '/services'
-                        />
-                        <CardItem
-                        src='images/sabonete.jpg'
-                        text ='Com aromas do rio Nilo e Jinseng'
-                        label ='Leite de Cabra'
-                        path = '/services'
-                        />
-                       
-                    </ul>
+                    
                     
                 </div>
             </div>

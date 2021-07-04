@@ -102,7 +102,7 @@ export default function ContactUs() {
     }
 
     return(
-      <form className="form" onSubmit={sendEmail}>
+      <form className="form" onSubmit={sendEmail} id="contactsform">
       <h1>Contacte-nos</h1>
 
       <input type="text" className="form-name" placeholder="Nome" name="name"/>
@@ -112,7 +112,7 @@ export default function ContactUs() {
       <textarea className="form-control"  placeholder="Mensagem" name="message"></textarea>
 
         <button>
-          <input type="submit" className="btn--primary" value="Enviar"></input>
+          <input type="submit" className="btn--outline" value="Enviar"></input>
         </button>
     </form>
                         

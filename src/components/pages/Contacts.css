@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image:url('/src/images/pastel.jpg'); ;
+  /*background-image:url('/src/images/pastel.jpg'); */
   background-color: rgb(248, 246, 253);
   text-align: center;
 }
@@ -31,6 +31,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .form > h1 {
@@ -43,7 +44,7 @@ button {
 }
 
 .form > input,
-textarea {
+ textarea {
   padding: 20px;
   border-radius: 3px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); 
@@ -51,39 +52,33 @@ textarea {
   margin-left: 100px;
   margin-right: 100px;
   border: 1px solid lightgray;
-  /* border: none; */
   background: #fff;
   font-size: 16px;
   color: rgb(0, 0, 32);
   outline: none;
-}
+} 
 
 .form > input {
   display: flex;
-  height: 150px;
+  height: 10px;
   max-width: 60000px;
-  min-height: 50px;     
+  min-height: 10px;     
 }
 
-.input {
-  display: flex;
-  height: 150px;
-  max-width: 60000px;
-  min-height: 50px;     
-}
+
 
 .form > input:focus,
 textarea:focus {
   border: 1px solid rgb(0, 0, 196);
 }
 
-.form > textarea {
+ .form > textarea {
   display: flex;
   height: 150px;
   max-width: 60000px;
   min-height: 50px;
 }
-
+ 
 
 
 .form > label {
@@ -92,9 +87,9 @@ textarea:focus {
   font-weight: bold;
 }
 
-.form > button {
-  padding: 20px;
-  border: none;
+ .form > button {
+  
+
   background-color: rgb(2, 2, 110);
   font-weight: 500;
   font-size: 20px;
@@ -104,13 +99,13 @@ textarea:focus {
   transition: 0.2s ease-in-out;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
   
-}
+}  
 
 .form > button:hover {
-  background-color: rgb(0, 0, 196);
+  background-color: rgb(0, 196, 10);
 }
 
 
