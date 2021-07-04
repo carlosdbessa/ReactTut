@@ -117,14 +117,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50px;
+    width: 100px;
   }
   
   .social-logo {
     color: #fff;
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: pointer; 
     text-decoration: none;
     font-size: 2rem;
     display: flex;

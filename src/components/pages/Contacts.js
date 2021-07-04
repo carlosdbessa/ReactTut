@@ -92,7 +92,7 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('service_16w735o', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+    emailjs.sendForm('service_zi0046c', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -102,50 +102,24 @@ export default function ContactUs() {
     }
 
     return(
-        <div>
-            <div className="container">
-            <form onSubmit={sendEmail}>
+      <form className="form" onSubmit={sendEmail}>
+      <h1>Contacte-nos</h1>
 
-                    {/* <div className="row pt-5 mx-auto"> */}
+      <input type="text" className="form-name" placeholder="Nome" name="name"/>
+      <input type="text" className="form-email" placeholder="Email" name="email"/>
+      <input type="text" className="form-assunto" placeholder="Assunto" name="subject"/> 
+      <label>Mensagem</label>
+      <textarea className="form-control"  placeholder="Mensagem" name="message"></textarea>
 
-                        <div className="col-8 form-group mx-auto">
+        <button>
+          <input type="submit" className="btn--primary" value="Enviar"></input>
+        </button>
+    </form>
                         
-                            <input type="text" className="form-control" placeholder="Nome" name="name"/>
-                        </div>
-
-                        <div className="col-8 form-group pt-2 mx-auto">
                         
-                            <input type="email" className="form-control" placeholder="e-mail" name="email"/>
-                        </div>
-
-                        <div className="col-8 form-group pt-2 mx-auto">
-                        
-                            <input type="text" className="form-control" placeholder="Assunto" name="subject"/>
-                        </div>
-
-                        <div className="col-8 form-group pt-2 mx-auto">
-                        
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Mensagem" name="message"></textarea>
-                        </div>
-                        
-                        <div className="col-8 pt-3 mx-auto">
-                            <button>
-                            <input type="submit" className="btn--primary" value="Enviar"></input>
-                            </button>
-                        </div>
-                        
-                        {/* <div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						<span>
-							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-							Send
-						</span>
-					</button>
-				    </div> */}
-
-                    {/* </div> */}
-                </form>
-            </div>
-        </div>
+                  
+                
+           
+      
     )
 }

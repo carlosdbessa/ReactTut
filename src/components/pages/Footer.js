@@ -29,7 +29,6 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Sobre Nós</h2>
-                        <Link to='/'>Quem Somos !!!</Link>
                         <Link to='/'>Testemunhos</Link>
                         <Link to='/'>Termos de Serviços</Link>
                     </div>
@@ -65,13 +64,22 @@ function Footer() {
                             <i className='fab fa-facebook-f'/>
                         </Link>
                         <Link 
-                            className='social-icon-link instagram' 
+                            className='social-icon-link mail' 
                             to='/'
+                            target='_blank'
+                            aria-label='Facebook' 
+                            >
+                           <i class="fa-solid fa-envelope"></i>
+                        </Link>
+                        <Link 
+                            className='social-icon-link instagram' 
+                            href="https://www.instagram.com/"
                             target='_blank'
                             aria-label='Instagram' 
                             >
                             <i className='fab fa-instagram'/>
                         </Link>
+                        
                     </div>    
                 </div>
             </section>
