@@ -6,25 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <div className='footer-container'>
-            {/* <section className ='footer-subscription'>
-                <p className='footer-subscription-heading'>
-                    Join the Baby Soap newsletter to receive our best products
-                </p>
-                <p className='footer-subscription-text'>
-                    You can Unsubscribe anytime
-                </p>
-                <div className='input-areas'>
-                    <form>
-                        <input
-                        type='email'
-                        name='email'
-                        placeholder='Your Email'
-                        className='footer-input'
-                    />
-                    <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div>
-            </section> */}
+            
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
@@ -53,32 +35,18 @@ function Footer() {
                             The Baby Soap <i className='fas fa-baby'/>
                         </Link>
                     </div>
-                    <small className='website-rights'> The Baby Soap 2021</small>
+                    <small className='website-rights'> The Baby Soap © 2021</small>
                     <div className='social-icons'>
-                        <Link 
-                            className='social-icon-link facebook' 
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook' 
-                            >
-                            <i className='fab fa-facebook-f'/>
-                        </Link>
-                        <Link 
-                            className='social-icon-link mail' 
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook' 
-                            >
-                           <i class="fa-solid fa-envelope"></i>
-                        </Link>
-                        <Link 
-                            className='social-icon-link instagram' 
-                            href="https://www.instagram.com/"
-                            target='_blank'
-                            aria-label='Instagram' 
-                            >
-                            <i className='fab fa-instagram'/>
-                        </Link>
+                       
+                        
+                        <a className='social-icon-link facebook' href="mailto:pedidos@babysoap.pt" target="_blank">
+                        <i className='fab fa-facebook f'/></a>
+                        <a className='social-icon-link facebook' href="https://instagram.com/thebabysoap" target="_blank">
+                        <i className='fab fa-instagram'/></a>
+                        
+                        
+                            
+                
                         
                     </div>    
                 </div>
