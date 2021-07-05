@@ -110,11 +110,12 @@ export default function ContactUs() {
       <input type="text" className="form-assunto" placeholder="Assunto" name="subject"/> 
       <label>Mensagem</label>
       <textarea className="form-control"  placeholder="Mensagem" name="message"></textarea>
-      <button><input type="submit" className="btn--outline" value="Enviar"></input></button>
-          
-       
-        
-    </form>
+      <button>
+        <input type="submit" className="btn--outline" value="Enviar"></input>
+      </button>
+      </form>
+
+    
                         
                         
                   

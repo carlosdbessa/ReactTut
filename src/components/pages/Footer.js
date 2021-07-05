@@ -38,10 +38,11 @@ function Footer() {
                     <small className='website-rights'> The Baby Soap © 2021</small>
                     <div className='social-icons'>
                        
+                    {/* mailto:pedidos@babysoap.pt */}
                         
-                        <a className='social-icon-link mail' href="mailto:pedidos@babysoap.pt" target="_blank">
+                        <a className='social-icon-link mail' href="https://instagram.com/" target="_blank">
                         <i className='fab fa-facebook f'/></a>
-                        <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
+                        <a className='social-icon-link instagram' href="https://instagram.com/" target="_blank">
                         <i className='fab fa-instagram'/></a>
                         
                         
