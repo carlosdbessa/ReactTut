@@ -92,7 +92,7 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('service_zi0046c', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+    emailjs.sendForm('service_babysoap', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
         .then((result) => {
             console.log(result.text);
         }, (error) => {

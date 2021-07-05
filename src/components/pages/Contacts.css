@@ -69,13 +69,15 @@ button {
 
 .form > input:focus,
 textarea:focus {
-  border: 1px solid rgb(0, 0, 196);
+  border: 1px solid rgb(224, 193, 130);
 }
 
  .form > textarea {
   display: flex;
   height: 150px;
-  max-width: 60000px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1000px;
   min-height: 50px;
 }
  
@@ -88,8 +90,6 @@ textarea:focus {
 }
 
  .form > button {
-  
-
   background-color: rgb(224, 193, 130);
   font-weight: 500;
   font-size: 20px;
