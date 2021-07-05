@@ -86,6 +86,9 @@ export default Contact;
 import emailjs from "emailjs-com";
 import React from 'react';
 import "./Contacts.css";
+import "../Button.css"
+
+
 
 export default function ContactUs() {
 
@@ -102,25 +105,16 @@ export default function ContactUs() {
     }
 
     return(
-      <form className="form" onSubmit={sendEmail} id="contactsform">
+      //<form className="form" onSubmit={sendEmail} id="contactsform">
+        <form className="form"  id="contactsform">
       <h1>Contacte-nos</h1>
 
       <input type="text" className="form-name" placeholder="Nome" name="name"/>
       <input type="text" className="form-email" placeholder="Email" name="email"/>
       <input type="text" className="form-assunto" placeholder="Assunto" name="subject"/> 
-      <label>Mensagem</label>
-      <textarea className="form-control"  placeholder="Mensagem" name="message"></textarea>
-      <button>
-        <input type="submit" className="btn--outline" value="Enviar"></input>
-      </button>
+      <textarea className="form-control" style= {{padding:'15px'}} placeholder="Mensagem" name="message"></textarea>
+      <button type="submit" className="btns btn--outline btn--medium1" >Enviar</button>
       </form>
 
-    
-                        
-                        
-                  
-                
-           
-      
     )
 }

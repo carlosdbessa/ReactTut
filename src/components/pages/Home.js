@@ -11,7 +11,7 @@ import Footer from './Footer';
          <>
             <HeroSection />
             <Cards />
-             <Contacts />
+             <Contacts /> 
             <Footer />
          </>
      );

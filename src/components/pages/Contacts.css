@@ -27,7 +27,7 @@ button {
 
 /* Contact.js */
 .form {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,8 +77,8 @@ textarea:focus {
   height: 150px;
   padding-left: 50px;
   padding-right: 50px;
-  max-width: 1000px;
   min-height: 50px;
+  resize: none;
 }
  
 
@@ -118,9 +118,9 @@ textarea:focus {
 }
 
 .btn--primary {
-  background-color: var(--primary);
+  background-color: rgb(224, 193, 130);
   color: #242424;
-  border: 1px solid var(--primary);
+  border: 1px solid #fff;
 }
 
 .btn--outline {
@@ -146,3 +146,52 @@ textarea:focus {
   color: #242424;
   transition: 250ms;
 }
+
+root {
+  --primary: #fff;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+ .btn--medium1
+ {
+   margin-left: 100px !important ;
+   margin-right: 100px !important;
+ }
