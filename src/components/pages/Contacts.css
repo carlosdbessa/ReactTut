@@ -39,7 +39,7 @@ button {
 }
 
 .form > label {
-  margin-left: 100px;
+  margin-left:100px;
   margin-right: 100px;
 }
 
@@ -49,8 +49,8 @@ button {
   border-radius: 3px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); 
   margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
   border: 1px solid lightgray;
   background: #fff;
   font-size: 16px;
@@ -192,6 +192,6 @@ root {
 }
  .btn--medium1
  {
-   margin-left: 100px !important ;
-   margin-right: 100px !important;
+   margin-left: 300px !important ;
+   margin-right: 300px !important;
  }
