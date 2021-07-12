@@ -12,7 +12,25 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                         src='images/sabonete.jpg' 
-                        text ='Aromatizante de Lavanda'
+                        text ='Aroma de Lavanda e Alfazema'
+                        label ='s'
+                        path = '/services'
+                        />
+                       
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem
+                        src='images/sabonete.jpg' 
+                        text ='Aroma de Mel'
+                        label ='s'
+                        path = '/services'
+                        />
+                       
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem
+                        src='images/sabonete.jpg' 
+                        text ='Aroma de Bebé'
                         label ='s'
                         path = '/services'
                         />
