@@ -23,8 +23,8 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Redes Sociais</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
+                        <a href="https://instagram.com/thebabysoap" target="_blank">Instagram</a>
+                      
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function Footer() {
                     {/* mailto:pedidos@babysoap.pt */}
                         
                         <a className='social-icon-link mail' href="mailto:pedidos@babysoap.pt" target="_blank">
-                        <i className='fab fa-facebook f'/></a>
+                        <i className='fas fa-envelope'/></a>
                         <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
                         <i className='fab fa-instagram'/></a>
                         
