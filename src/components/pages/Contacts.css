@@ -90,7 +90,7 @@ textarea:focus {
 }
 
  .form > button {
-  background-color: #d19091;
+  background-image: linear-gradient(to right, #D19091 0%, #8e97a7 51%, #D19091 100%);
   font-weight: 500;
   font-size: 20px;
   border-radius: 3px;
