@@ -50,30 +50,30 @@ function Cards() {
       
         // <form className="cards" onSubmit={sendEmail} id="productsform">
          <form className='cards'id="productsform" >   
-        <div>
+       
               <h1> Personalize o sabonete do seu bebé:  </h1>
           
-          <div className="select">
+         
           <div className="row">
             <label> Base do Sabonete </label>
             <Select options={Glicerinas} placeholder="Glicerina" name="glicerinas"  />
           </div>
-          </div>
-          <div className="select">
+          
+          
           <div className="row">
             <label> Aroma </label>
             <Select options={Aromas} placeholder="Escolha o Aroma" name="aromas" variant="outlined" />
           </div>
-          </div>
-          <div className="select">
+         
+          
           <div className="row">
             <label> Nome do Bebé </label>
             <Select options={Names} placeholder="Nome do Bebé" name="nomebebe" />
           </div>
-          </div>
+         
           <Button type="submit" className="MuiButtonBase-root MuiButton-root 
           MuiButton-containedSizeLarge MuiButton-label MuiButton-containedPrimary">Enviar</Button>
-        </div> 
+      
         
           
       
