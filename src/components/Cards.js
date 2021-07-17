@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Select from 'react-select';
 import emailjs from "emailjs-com";
-import './Cards.css';
-import { Button } from '@material-ui/core';
+import "./pages/Contacts.css";
+import "./Button.css"
+import "./Cards.css"
+
 
 
 
@@ -49,30 +51,29 @@ function Cards() {
     return (
       
         // <form className="cards" onSubmit={sendEmail} id="productsform">
-         <form className='cards'id="productsform" >   
+         <form className='form'id="productsform" >   
        
               <h1> Personalize o sabonete do seu bebé:  </h1>
           
          
-          <div className="row">
+          <div className="selectContainer">
             <label> Base do Sabonete </label>
             <Select options={Glicerinas} placeholder="Glicerina" name="glicerinas"  />
           </div>
           
           
-          <div className="row">
+          <div className="selectContainer">
             <label> Aroma </label>
             <Select options={Aromas} placeholder="Escolha o Aroma" name="aromas" variant="outlined" />
           </div>
          
           
-          <div className="row">
+          <div className="selectContainer">
             <label> Nome do Bebé </label>
             <Select options={Names} placeholder="Nome do Bebé" name="nomebebe" />
           </div>
          
-          <Button type="submit" className="MuiButtonBase-root MuiButton-root 
-          MuiButton-containedSizeLarge MuiButton-label MuiButton-containedPrimary">Enviar</Button>
+          <button type="submit" className="btns btn--outline btn--medium1" >Enviar</button>
       
         
           
