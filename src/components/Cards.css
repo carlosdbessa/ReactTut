@@ -1,115 +1,151 @@
-.MuiButton-containedPrimary{
+.cards {
+    padding: 1rem;
+    background:whitesmoke;
+  
+  }
+  
+  h1 {
+    text-align: center;
+    color :#8e97a7
+  }
 
-  color:#fff;
-  background-color: rgb(224, 193, 130);
-}
+  label{
+    text-align: center;
+    color :#d19091;
+  }
 
-.MuiButton-label {
-  width: 100%;
-  display: inherit;
-  align-items: inherit;
-  justify-content: inherit;
-
-}
-
-.MuiButton-containedSizeLarge {
-  padding: 8px 22px;
-  font-size: 0.9375rem;
-}
-
-.MuiButton-root {
-  color: rgba(0, 0, 0, 0.87);
-  padding: 6px 16px;
-  font-size: 0.875rem;
-  min-width: 64px;
-  box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  line-height: 1.75;
-  border-radius: 4px;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-}
-
-.MuiButtonBase-root {
-  color: inherit;
-  border: 0;
-  cursor: pointer;
-  margin: 0;
-  display: inline-flex;
-  outline: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  border-radius: 0;
-  vertical-align: middle;
-  -moz-appearance: none;
-  justify-content: center;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* INPUT LABEL */
-
-.MuiInputLabel-outlined {
-  z-index: 1;
-  transform: translate(14px, 20px) scale(1);
-  pointer-events: none;
-}
-
-.MuiInputLabel-root {
-  display: block;
-  transform-origin: top left;
-}
-
-.MuiInputLabel-animated {
-  transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-}
-
-.MuiInputLabel-formControl {
-  top: 0;
-  left: 0;
-  position: absolute;
-  transform: translate(0, 24px) scale(1);
-}
-
-.MuiInputLabel-root {
-  display: block;
-  transform-origin: top left;
-}
-
-/* Form Label */
-
-.MuiFormLabel-root {
-  color: rgba(224, 28, 28, 0.54);
-  padding: 10;
-  font-size: 1rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.00938em;
-  margin-bottom: auto;
-}
+  .select {
+  padding: 10px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);  */
+  margin-bottom: 10px;
+  margin-left: 100px ;
+  margin-right: 100px;
+  /*border: 1px solid lightgray;*/
+  background: whitesmoke;
+  font-size: 16px;
+  color:#8e97a7;
+  outline: none;
+} 
 
 
-.MuiInputBase-input {
-  font: inherit;
-  color: currentColor;
-  width: 100%;
-  border: 0;
-  height: 1.1876em;
-  margin: 0;
-  display: block;
-  padding: 6px 0 7px;
-  min-width: 0;
-  background: none;
-  box-sizing: content-box;
-  animation-name: mui-auto-fill-cancel;
-  letter-spacing: inherit;
-  animation-duration: 10ms;
-  -webkit-tap-highlight-color: transparent;
-}
+  
+  .MuiButton-containedPrimary{
+
+    color: whitesmoke;
+    background-color: #d19091 !important;
+  }
+  
+  .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+  
+  }
+  
+  .MuiButton-containedSizeLarge {
+    padding: 11px 0px;
+    font-size: 0.9375rem;
+  }
+  
+  .MuiButton-root {
+    color:whitesmoke;
+    padding: 10px 26px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+  
+  }
+  
+  .MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin-left: 200px ;
+    margin-right: 200px  ;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* INPUT LABEL */
+  
+  .MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(14px, 20px) scale(1);
+    pointer-events: none;
+  }
+  
+  .MuiInputLabel-root {
+    display: block;
+    transform-origin: top left;
+  }
+  
+  .MuiInputLabel-animated {
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  }
+  
+  .MuiInputLabel-formControl {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(0, 24px) scale(1);
+  }
+  
+  .MuiInputLabel-root {
+    display: block;
+    transform-origin: top left;
+  }
+  
+  /* Form Label */
+  
+  .MuiFormLabel-root {
+    color: rgba(224, 28, 28, 0.54);
+    padding: 10;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+    margin-bottom: auto;
+  }
+  
+  
+  .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  

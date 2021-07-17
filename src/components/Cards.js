@@ -1,97 +1,90 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
+import React, { Component } from 'react';
+import Select from 'react-select';
+import emailjs from "emailjs-com";
+import './Cards.css';
 import { Button } from '@material-ui/core';
+import { TextField } from '@material-ui/core';
 
-import TextField from '@material-ui/core/TextField';
 
-const useStyles = makeStyles((theme) => ({
-  formControl: {
-    margin: theme.spacing(10),
-    minWidth: 120,
-  },
-  selectEmpty: {
-    marginTop: theme.spacing(10),
-  },
-}));
+const Glicerinas = [
+    { label: "Leite de Cabra", value: "Leite de Cabra" }
+  ];
+  
+  const Aromas = [
+      { label: "Lavanda e Alfazema", value: "Lavanda e Alfazema" },
+      { label: "Mel", value: "Mel" },
+      { label: "Bebe", value: "Bebe" }
+   
+    ];
+  
+    const Names= [ 
+      { label: "Violeta", value: "Violeta" },
+      { label: "Leonor", value: "Leonor" },
+      { label: "Carolina", value: "Carolina" },
+      { label: "Mafalda", value: "Mafalda" },
+      { label: "Rita", value: "Rita" },
+      { label: "Francisco", value: "Francisco" },
+      { label: "Bernardo", value: "Bernardo" },
+      { label: "Josué", value: "Josué" },
+      { label: "Carlota", value: "Carlota" }
+  
+    ]
+  
 
-export default function NativeSelects() {
-  const classes = useStyles();
-  const [state, setState] = React.useState({
-    age: '',
-    name: 'hai',
-  });
+function Cards() {
 
-  const handleChange = (event) => {
-    const name = event.target.name;
-    setState({
-      ...state,
-      [name]: event.target.value,
-    });
-  };
+    function sendEmail(e) {
+        e.preventDefault();
 
-  return (
-    <div>
-    
-      <FormControl variant="outlined" className={classes.formControl}>
-        <InputLabel htmlFor="outlined-age-native-simple">Base</InputLabel>
-        <Select
-          native
-          value={state.base}
-          onChange={handleChange}
-          label="Aroma"
-          inputProps={{
-            name: 'Nome',
-            id: 'outlined-age-native-simple',
-          }}
-        >
-          <option aria-label="None" value="" />
-          <option value={10}>Leite de Cabra</option>
+    emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
+
+
+    return (
+      
+        // <form className="cards" onSubmit={sendEmail} id="productsform">
+         <form className='cards'id="productsform" >   
+        <div>
+              <h1> Personalize o sabonete do seu bebé:  </h1>
           
-
-        </Select>
-
-        <InputLabel htmlFor="outlined-age-native-simple">Base</InputLabel>
-
-        <Select
-          native
-          value={state.aroma}
-          onChange={handleChange}
-          label="Aroma"
-          inputProps={{
-            name: 'Nome',
-            id: 'outlined-age-native-simple',
-          }}
-        >
-          <option aria-label="None" value="" />
-          <option value={20}>Lavanda e alfazema</option>
-          <option value={30}>Mel</option>
-       </Select>
+          <div className="select">
+          <div className="row">
+            <label> Base do Sabonete </label>
+            <Select options={Glicerinas} placeholder="Glicerina" name="glicerinas"  />
+          </div>
+          </div>
+          <div className="select">
+          <div className="row">
+            <label> Aroma </label>
+            <Select options={Aromas} placeholder="Escolha o Aroma" name="aromas" variant="outlined" />
+          </div>
+          </div>
+          <div className="select">
+          <div className="row">
+            <label> Nome do Bebé </label>
+            <Select options={Names} placeholder="Nome do Bebé" name="nomebebe" />
+          </div>
+          </div>
+          <Button type="submit" className="MuiButtonBase-root MuiButton-root 
+          MuiButton-containedSizeLarge MuiButton-label MuiButton-containedPrimary">Enviar</Button>
+        </div> 
+        
+          
+      
+        </form>
         
         
-      
+      );
 
-        <TextField id="outlined-basic" label="Nome do Bebé" variant="outlined" />
+ 
 
-        
-        <Button class=" MuiButtonBase-root MuiButton-containedSizeLarge MuiButton-root
-        MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-label " variant="contained" color="primary">
-              Enviar
-        </Button> 
-      </FormControl>
-      
-      
-
-      
-
-    
-      
-
-      
-    </div>
-  );
 }
+export default Cards;
+ 
 
