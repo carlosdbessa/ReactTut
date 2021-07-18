@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Select from 'react-select';
 import emailjs from "emailjs-com";
-import "./pages/Contacts.css";
-import "./Button.css"
-import "./Cards.css"
 
 
 
@@ -64,7 +61,7 @@ function Cards() {
           
           <div className="selectContainer">
             <label> Aroma </label>
-            <Select options={Aromas} placeholder="Escolha o Aroma" name="aromas" variant="outlined" />
+            <Select className="selContainerControl" options={Aromas} placeholder="Escolha o Aroma" name="aromas" variant="outlined" />
           </div>
          
           
