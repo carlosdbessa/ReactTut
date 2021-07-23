@@ -19,8 +19,8 @@ export default function ContactUs() {
     }
 
     return(
-      //<form className="form" onSubmit={sendEmail} id="contactsform">
-        <form className="form"  id="contactsform">
+      <form className="form" onSubmit={sendEmail} id="contactsform">
+       {/* // <form className="form"  id="contactsform"> */}
       <h1>Contacte-nos</h1>
 
       <input type="text" className="form-name" placeholder="Nome" name="name"/>
