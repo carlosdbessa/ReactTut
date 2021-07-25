@@ -1,32 +1,21 @@
-  import React from 'react'
-  import '../App.css';
-  import './HeroSection.css';
-  import { Link } from 'react-scroll';
+import React from "react";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-
-  
-  function HeroSection() {
-      return (
-          <div className='hero-container'>
-              
-              <h1>The Baby Soap</h1>
-              <p>Em breve algo que irá revolucionar a higiene do seu bebé!</p>
-              
-              <div className="hero-btns">
-              <Link to="productsform" className="btns btn--outline">Personalize o seu sabonete</Link>
-                  {/* <Link href="#Products_Form">
-                  <Button className='btns'
-                   buttonStyle='btn--outline'
-                   buttonSize='btn-large'> Productos </Button>
-                   </Link> */}
-                   {/* <Button className='btns'
-                   buttonStyle='btn--primary'
-                   buttonSize='btn-large'> Watch us <i className='far fa-play-circle' />
-                     </Button> */}
-              </div>
-          </div>
-      )
-  }
-  
-export default HeroSection
+export default function HeroSection() {
+    return (
+        <div className="carousel-wrapper">
+            <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                    <img src="/images/maternidade-1.jpg"/>
+                </div>
+                <div>
+                <img src="/images/sabonete.jpg"/>
+                </div>
+                <div>
+                <img src="/images/maternindade-2.jpg" />
+                </div>
+            </Carousel>
+        </div>
+    );
+}
