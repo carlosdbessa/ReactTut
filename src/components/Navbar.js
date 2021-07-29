@@ -1,7 +1,7 @@
 
 import React, {useState, useEffect} from 'react';
 //import { Link } from 'react-router-dom';
-import './Navbar.css';
+
 import { Link } from 'react-scroll';
 
 function Navbar() {
@@ -29,11 +29,16 @@ function Navbar() {
 
     return (
         <>
+            
+                
             <nav className= 'navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    The Baby Soap<i className = 'fas fa-baby'/>
-                    </Link>
+                    <img src="../images/baby_soap_logo.png" width="150" height="150" />
+                  
+                    </Link> 
+                
+                   
                     <div className = 'menu-icon' onClick = {handleClick}>
                         <i className= { click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -59,8 +64,8 @@ function Navbar() {
                             </Link>
                         </li> */}
                     </ul>   
-                    {/* {button && <Button buttonStyle ='btn--outline'>SIGN UP</Button>}      */}
-                </div>
+                    
+             </div>
             </nav>
         </>
     );
