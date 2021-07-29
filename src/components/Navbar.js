@@ -1,7 +1,6 @@
 
 import React, {useState, useEffect} from 'react';
 //import { Link } from 'react-router-dom';
-
 import { Link } from 'react-scroll';
 
 function Navbar() {
@@ -33,7 +32,7 @@ function Navbar() {
                 
             <nav className= 'navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='./' className='navbar-logo' onClick={closeMobileMenu}>
                     <img src="../images/baby_soap_logo.png" width="150" height="150" />
                   
                     </Link> 

@@ -6,9 +6,7 @@ export default function HeroSection() {
     return (
         <div className="carousel-wrapper">
             <Carousel infiniteLoop useKeyboardArrows autoPlay>
-                <div>
-                    <img src="/images/maternidade-1.jpg"/>
-                </div>
+                
                 <div>
                 <img src="/images/sabonete.jpg"/>
                 </div>
