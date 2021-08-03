@@ -28,11 +28,10 @@ export default function App() {
     <>
     
   <Swiper style={{'--swiper-navigation-color': '#fff','--swiper-pagination-color': '#fff'}} speed={600} parallax={true} autoplay={{
-                                                                                                                                   autoHeight: true,
   "delay": 2500, "disableOnInteraction": false}} 
   pagination={{
   "clickable": true
-}} navigation={true} className="mySwiper">
+}}  autoHeight: true, navigation={true} className="mySwiper">
   
   <SwiperSlide style={{'background-image': 'url(https://images6.alphacoders.com/389/389949.jpg)'}}>
           <div  className="title" data-swiper-parallax="-300"></div>
