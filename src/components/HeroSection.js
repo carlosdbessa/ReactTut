@@ -12,7 +12,7 @@ import "swiper/components/navigation/navigation.min.css"
 
 // import Swiper core and required modules
 import SwiperCore, {
-  Navigation, Autoplay
+  Navigation,Autoplay
 } from 'swiper/core';
 
 // install Swiper modules
