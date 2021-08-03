@@ -39,7 +39,7 @@ export default function App() {
   return (
     
     <Swiper navigation={true} autoplay={{
-      "delay": 2500, "disableOnInteraction": false}} className="mySwiper">
+      "delay": 1500, "disableOnInteraction": false}} className="mySwiper">
     {slides}
     </Swiper>
     
