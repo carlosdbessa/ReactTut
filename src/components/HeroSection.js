@@ -36,7 +36,7 @@ export default function App() {
 
   pagination={{
   "clickable": true
-}} navigation={true} className="mySwiper">
+}}  navigation={true} className="mySwiper">
   
   <SwiperSlide src={images[0]}>
   
