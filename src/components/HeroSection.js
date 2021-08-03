@@ -28,6 +28,7 @@ export default function App() {
     <>
     
   <Swiper style={{'--swiper-navigation-color': '#fff','--swiper-pagination-color': '#fff'}} speed={600} parallax={true} autoplay={{
+                                                                                                                                   autoHeight: true,
   "delay": 2500, "disableOnInteraction": false}} 
   pagination={{
   "clickable": true
