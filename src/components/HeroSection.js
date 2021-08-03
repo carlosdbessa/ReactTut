@@ -31,7 +31,7 @@ export default function App() {
   "delay": 2500, "disableOnInteraction": false}} 
   pagination={{
   "clickable": true
-}}  autoHeight: true, navigation={true} className="mySwiper">
+}}  navigation={true} className="mySwiper">
   
   <SwiperSlide style={{'background-image': 'url(https://images6.alphacoders.com/389/389949.jpg)'}}>
           <div  className="title" data-swiper-parallax="-300"></div>
