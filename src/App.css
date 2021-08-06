@@ -223,6 +223,21 @@ border-color: var(--smokepink) !important;
   background-color: #d19091 !important;
 }
 
+.MuiFormLabel-root.Mui-focused{
+
+  color: #d19091 !important;
+}
+
+
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #d19091 !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #d19091 !important;
+}
+
 .MuiButton-label {
   width: 100%;
   display: inherit;
@@ -334,6 +349,8 @@ border-color: var(--smokepink) !important;
   animation-duration: 10ms;
   -webkit-tap-highlight-color: transparent;
 }
+
+
 
 
 .btn {

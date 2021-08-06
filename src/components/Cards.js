@@ -115,23 +115,19 @@ export default function SignUp() {
             <em>-</em>
           </MenuItem>
           <MenuItem value={10}>Leite de Cabra</MenuItem>
-         
         </Select>
       </FormControl>
 
-
-        <form className={classes.form} noValidate>
-          
-           
-            
             <Grid item xs={12}>
               <FormControlLabel
-                control={<Checkbox value="allowExtraEmails" color="primary" />}
+                control={<Checkbox value="allowExtraEmails" />}
                 label="Desejo personalizar o sabonete?"
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField className={classes.form}
+
+            
+            <form className={classes.form} noValidate>
+              <TextField 
                 autoComplete="fname"
                 name="Nome do Bebé"
                 variant="outlined"
@@ -140,8 +136,7 @@ export default function SignUp() {
                 label="Nome do Bebé"
                 autoFocus
               />
-            </Grid>
-            
+              </form>
           
           <Button
             type="submit"
@@ -153,17 +148,8 @@ export default function SignUp() {
             Personalizar
           </Button>
           <Grid container justifyContent="flex-end">
-            {/* <Grid item>
-              <Link href="#" variant="body2">
-                Already have an account? Sign in
-              </Link>
-            </Grid> */}
           </Grid>
-        </form>
       </div>
-      {/* <Box mt={5}>
-         <Copyright /> 
-      </Box> */}
     </Container>
   );
 }
