@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import emailjs from "emailjs-com";
 
 function Copyright() {
   return (
@@ -49,15 +50,27 @@ const useStyles = makeStyles((theme) => ({
 export default function SignIn() {
   const classes = useStyles();
 
+  function sendEmail(e) {
+    e.preventDefault();
+
+emailjs.sendForm('service_babysoap', 'babysoap_template', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text); 
+    });
+    e.target.reset()
+}
+
   return (
-    <Container component="main" maxWidth="xs">
+    <Container component="main" maxWidth="xs" >
       <CssBaseline />
       <div className={classes.paper}>
         
         <Typography component="h1" variant="h5">
           Contacte-nos
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} noValidate onSubmit={sendEmail} id="contactsform">
           <TextField
             variant="outlined"
             margin="normal"

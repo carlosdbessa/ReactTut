@@ -118,7 +118,7 @@ export default function SignUp() {
         </Select>
       </FormControl>
 
-            <Grid item xs={12}>
+         {/*    <Grid item xs={12}>
               <FormControlLabel
                 control={<Checkbox value="allowExtraEmails" />}
                 label="Desejo personalizar o sabonete?"
@@ -136,7 +136,7 @@ export default function SignUp() {
                 label="Nome do Bebé"
                 autoFocus
               />
-              </form>
+              </form> */}
           
           <Button
             type="submit"
