@@ -127,7 +127,7 @@ export default function SignUp() {
 
             
             <form className={classes.form} noValidate>
-              <TextField 
+              <TextField
                 autoComplete="fname"
                 name="Nome do Bebé"
                 variant="outlined"
