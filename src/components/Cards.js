@@ -17,6 +17,9 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Checkout from './Checkout';
+import history from './history';
+
 
 /* function Copyright() {
   return (
@@ -125,7 +128,6 @@ export default function SignUp() {
               />
             </Grid>
 
-            
             <form className={classes.form} noValidate>
               <TextField
                 autoComplete="fname"
@@ -143,7 +145,9 @@ export default function SignUp() {
             fullWidth
             variant="contained"
             color="primary"
+            onClick={() => history.push('/Checkout')}
             className={classes.submit}
+            //Route path="/Encomenda" component={Checkout}
           >
             Personalizar
           </Button>
