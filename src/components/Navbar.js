@@ -33,7 +33,7 @@ function Navbar() {
             <nav className= 'navbar'>
                 <div className='navbar-container'>
                     <Link to='./' className='navbar-logo' onClick={closeMobileMenu}>
-                    <img src="../images/baby_soap_logo.png" width="150" height="150" />
+                    <img src="../images/baby_soap_logo.png" width="100" height="100" />
                   
                     </Link> 
                 
