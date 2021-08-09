@@ -18,21 +18,8 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Checkout from './Checkout';
-import history from './history';
+import { useHistory } from 'react-router-dom';
 
-
-/* function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-} */
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -60,8 +47,10 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
 }));
+ 
 
-export default function SignUp() {
+
+export default function Config() {
   const classes = useStyles();
   const [fragancia, setFragancia] = React.useState('');
   const [base, setBase] = React.useState('');
@@ -73,6 +62,13 @@ export default function SignUp() {
   const handleChange1 = (event) => {
     setBase(event.target.value);
   };
+
+  const history = useHistory();
+  
+  const handleRoute = () =>{ 
+    history.push("/Checkout");
+  }
+  
 
   return (
     <Container component="main" maxWidth="xs">
@@ -145,9 +141,9 @@ export default function SignUp() {
             fullWidth
             variant="contained"
             color="primary"
-            onClick={() => history.push('/Checkout')}
+            //onClick={handleRoute}
             className={classes.submit}
-            //Route path="/Encomenda" component={Checkout}
+            
           >
             Personalizar
           </Button>
