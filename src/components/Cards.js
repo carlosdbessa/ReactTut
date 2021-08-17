@@ -17,8 +17,37 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import Checkout from './Checkout';
-import { useHistory } from 'react-router-dom';
+
+/* function Copyright() {
+  return (
+    <Typography variant="body2" color="textSecondary" align="center">
+      {'Copyright © '}
+      <Link color="inherit" href="https://material-ui.com/">
+        Your Website
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
+} */
+
+
+const StyledTextField = styled(TextField)`
+  label.Mui-focused {
+    color: green;
+  }
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: red;
+    }
+    &:hover fieldset {
+      border-color: yellow;
+    }
+    &.Mui-focused fieldset {
+      border-color: green;
+    }
+  }
+`;
 
 
 const useStyles = makeStyles((theme) => ({
@@ -47,10 +76,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
 }));
- 
 
-
-export default function Config() {
+export default function SignUp() {
   const classes = useStyles();
   const [fragancia, setFragancia] = React.useState('');
   const [base, setBase] = React.useState('');
@@ -62,13 +89,6 @@ export default function Config() {
   const handleChange1 = (event) => {
     setBase(event.target.value);
   };
-
-  const history = useHistory();
-  
-  const handleRoute = () =>{ 
-    history.push("/Checkout");
-  }
-  
 
   return (
     <Container component="main" maxWidth="xs">
@@ -102,7 +122,7 @@ export default function Config() {
       
       <FormControl variant="outlined" className={classes.form}>
         <InputLabel id="demo-simple-select-outlined-label">Base</InputLabel>
-        <Select
+        <SelectField
           labelId="demo-simple-select-outlined-label"
           id="demo-simple-select-outlined"
           value={base}
@@ -114,18 +134,23 @@ export default function Config() {
             <em>-</em>
           </MenuItem>
           <MenuItem value={10}>Leite de Cabra</MenuItem>
-        </Select>
+         
+        </SelectField>
       </FormControl>
 
-         {/*    <Grid item xs={12}>
+
+        <form className={classes.form} noValidate>
+          
+           
+            
+            <Grid item xs={12}>
               <FormControlLabel
-                control={<Checkbox value="allowExtraEmails" />}
+                control={<Checkbox value="allowExtraEmails" color="primary" />}
                 label="Desejo personalizar o sabonete?"
               />
             </Grid>
-
-            <form className={classes.form} noValidate>
-              <TextField
+            <Grid item xs={12} sm={6}>
+              <StyledTextField className={classes.form}
                 autoComplete="fname"
                 name="Nome do Bebé"
                 variant="outlined"
@@ -134,22 +159,30 @@ export default function Config() {
                 label="Nome do Bebé"
                 autoFocus
               />
-              </form> */}
+            </Grid>
+            
           
           <Button
             type="submit"
             fullWidth
             variant="contained"
             color="primary"
-            //onClick={handleRoute}
             className={classes.submit}
-            
           >
             Personalizar
           </Button>
           <Grid container justifyContent="flex-end">
+            {/* <Grid item>
+              <Link href="#" variant="body2">
+                Already have an account? Sign in
+              </Link>
+            </Grid> */}
           </Grid>
+        </form>
       </div>
+      {/* <Box mt={5}>
+         <Copyright /> 
+      </Box> */}
     </Container>
   );
 }
