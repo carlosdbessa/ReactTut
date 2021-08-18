@@ -17,44 +17,9 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-<<<<<<< HEAD
 import Checkout from './Checkout';
 import { useHistory } from 'react-router-dom';
 import App from '../App'
-=======
-
-/* function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-} */
-
-
-const StyledTextField = styled(TextField)`
-  label.Mui-focused {
-    color: green;
-  }
-  .MuiOutlinedInput-root {
-    fieldset {
-      border-color: red;
-    }
-    &:hover fieldset {
-      border-color: yellow;
-    }
-    &.Mui-focused fieldset {
-      border-color: green;
-    }
-  }
-`;
-
->>>>>>> a048b45e6bbf34015802a0d9d3aadc99ca7276bf
 
 const useStyles = makeStyles((theme) => ({
   paper: {
