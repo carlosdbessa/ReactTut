@@ -19,7 +19,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Checkout from './Checkout';
 import { useHistory } from 'react-router-dom';
-
+import App from '../App'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
