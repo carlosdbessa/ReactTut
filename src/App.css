@@ -862,6 +862,8 @@ root {
   margin-right: 2rem;
 }
 
+
+
 .nav-item {
   height: 80px;
 }
@@ -911,7 +913,7 @@ root {
   }
 
   .nav-menu.active {
-    background: #8e97a7;
+    background: #d19091;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
