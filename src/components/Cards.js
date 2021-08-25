@@ -8,6 +8,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import {Hello} from './Hello'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,6 +53,9 @@ export default function SignUp() {
   };
 
   return (
+    <div>
+      <>
+    <Hello />
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -105,6 +109,7 @@ export default function SignUp() {
           >Personalizar</Button>   
       </div>
      </Container>
-  
+  </>
+  </div>
   );
 }
