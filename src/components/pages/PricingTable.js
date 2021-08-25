@@ -28,7 +28,7 @@ function PricingTables() {
     </PricingSlot>
 </PricingTable>
 
-<p>Para encomendas ou qualquer dúvida, contacte-nos, estaremos sempre ao seu dispor.</p>
+<p>Para encomendas ou qualquer dúvida, contacte-nos, estaremos sempre ao seu dispor!</p>
 
         </div>
     )
