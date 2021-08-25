@@ -4,13 +4,14 @@ import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Contacts from './Contacts';
 import Footer from './Footer';
+import PricingTables from './PricingTable';
 //import React from 'react'
  
  function Home() {
      return (
          <>
             <HeroSection />
-             <Cards />
+             <PricingTables />
              <Contacts /> 
             <Footer />
          </>
