@@ -127,18 +127,19 @@ export default function SignUp() {
                 autoFocus
               />
               </form> 
-
-      <button  onClick={() => setShowPrice(!showPrice)}>Tabela de Preços</button>
-    {showPrice && <PricingTables/>}
-   
-
-          <Button
+              <Button
           className={classes.submit}
             type="submit"
             fullWidth
             variant="contained"
             color="primary"
-          >Personalizar</Button>   
+          >Personalizar</Button>  
+
+      <button  onClick={() => setShowPrice(!showPrice)}>Tabela de Preços</button>
+    {showPrice && <PricingTables/>}
+   
+
+          
       </div>
      </Container>
   </>
