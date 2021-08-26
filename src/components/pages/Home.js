@@ -10,6 +10,7 @@ import Footer from './Footer';
      return (
          <>
             <HeroSection />
+            <PricingTables />
             <Cards />
              <Contacts /> 
             <Footer />
