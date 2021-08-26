@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
@@ -9,6 +9,12 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import {Hello} from './Hello'
+import PricingTables from './pages/PricingTable';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Grid from '@material-ui/core/Grid';
+import TextField from '@material-ui/core/TextField';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,10 +58,12 @@ export default function SignUp() {
     setBase(event.target.value);
   };
 
+  const [showPrice, setShowPrice] = useState(true);
+  const [showConf, setShowConf] = useState(true);
+
   return (
     <div>
       <>
-    <Hello />
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -95,10 +103,34 @@ export default function SignUp() {
           <MenuItem value="">
             <em>-</em>
           </MenuItem>
-          <MenuItem value={10}>Leite de Cabra</MenuItem>
+          <MenuItem value={10}> Glicerina à base de Leite de Cabra</MenuItem>
          
         </Select>
       </FormControl>
+
+       
+              <FormControlLabel
+                control={<Checkbox onClick={() => setShowConf(!showConf)}/>}
+                
+                label="Desejo personalizar o sabonete?"
+              />
+          
+
+            <form className={classes.form} noValidate>
+              <TextField
+                autoComplete="fname"
+                name="Nome do Bebé"
+                variant="outlined"
+                fullWidth
+                id="NomeDoBeBe"
+                label="Nome do Bebé"
+                autoFocus
+              />
+              </form> 
+
+      <button  onClick={() => setShowPrice(!showPrice)}>Tabela de Preços</button>
+    {showPrice && <PricingTables/>}
+   
 
           <Button
           className={classes.submit}

@@ -11,7 +11,8 @@ import PricingTables from './PricingTable';
      return (
          <>
             <HeroSection />
-             <PricingTables />
+             {/* <PricingTables /> */}
+             <Cards />
              <Contacts /> 
             <Footer />
          </>
