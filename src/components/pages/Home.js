@@ -5,6 +5,7 @@ import Cards from '../Cards';
 import Contacts from './Contacts';
 import Footer from './Footer';
 import PricingTables from './PricingTable';
+import FAQS from './Faqs';
 //import React from 'react'
  
  function Home() {
@@ -12,6 +13,7 @@ import PricingTables from './PricingTable';
          <>
             <HeroSection />
              {/* <PricingTables /> */}
+            
              <Cards />
              <Contacts /> 
             <Footer />
