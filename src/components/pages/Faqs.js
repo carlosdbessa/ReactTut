@@ -71,13 +71,13 @@ export default function FAQS() {
         rows: [
             {
                 title: "Como posso fazer a minha encomenda?",
-                content: <p>Pode efetuar a sua encomenda através do nosso website e pode tambem recorrer à nossa página de Instagram</p>,
+                content: <p>Pode efetuar a sua encomenda através do nosso website e pode tambem recorrer à nossa página de Instagram.</p>,
             },
             {
                 title: "Qual a quantidade de Leite?",
                 content:
                     <p>A quantidade de leite é sempre indicada por nós aquando do momento da sua encomenda.
-                     No entando pode consultar no nosso website as quantidades necessárias para cada Pack </p>,
+                     No entando pode consultar no nosso website as quantidades necessárias para cada Pack. </p>,
             },
             {
                 title: "Posso encomendar apenas 1 sabonente?",
