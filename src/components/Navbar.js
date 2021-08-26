@@ -1,8 +1,10 @@
 
 import React, {useState, useEffect} from 'react';
 //import { Link } from 'react-router-dom';
-import { Link } from 'react-scroll';
+//import { Link } from 'react-scroll';
 import Checkout from './Checkout';
+import { Link } from 'react-router-dom';
+
 
 function Navbar() {
 
@@ -53,7 +55,7 @@ function Navbar() {
                             </Link>
                         </li> */}
                         <li className='nav-item'>
-                            <Link to="contactsform" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
                                CONTACTOS
                             </Link>
                         </li>

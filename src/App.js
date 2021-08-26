@@ -20,7 +20,7 @@ function App() {
         <Route path='/contacts' component={Contacts} />
         <Route path='/sign-up' component={SignUp} />
         <Route path='/Checkout' component={Checkout}/>
-         <Route path='/FAQS' component={Faqs}/>  
+        <Route path='/FAQS' component={Faqs}/>  
       </Switch>
     </Router>
     </>
