@@ -71,16 +71,17 @@ export default function FAQS() {
         rows: [
             {
                 title: "Como posso fazer a minha encomenda?",
-                content: `Pode efetuar a sua encomenda através do nosso website e pode tambem recorrer à nossa página de Instagram`,
+                content: <p>Pode efetuar a sua encomenda através do nosso website e pode tambem recorrer à nossa página de Instagram</p>,
             },
             {
                 title: "Qual a quantidade de Leite?",
                 content:
-                    "A quantidade de leite é sempre indicada por nós aquando do momento da sua encomenda. No entando pode consultar no nosso website as quantidades necessárias para cada Pack",
+                    <p>A quantidade de leite é sempre indicada por nós aquando do momento da sua encomenda.
+                     No entando pode consultar no nosso website as quantidades necessárias para cada Pack </p>,
             },
             {
                 title: "Posso encomendar apenas 1 sabonente?",
-                content: `Não é possível encomendar apenas um sabonete. O número minimo é 2 sabonetes se optar pelo Pack I. `,
+                content: <p>Não é possível encomendar apenas um sabonete. O número minimo é 2 sabonetes se optar pelo Pack I. </p>,
             },
             {
                 title: "O sabonete tem prazo de validade? ",
