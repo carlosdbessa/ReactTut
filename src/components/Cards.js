@@ -69,11 +69,11 @@ export default function SignUp() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-     {/*    <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h5">
           Personalizar Sabonete
-        </Typography> */}
+        </Typography> 
         
-        {/* <FormControl variant="outlined" className={classes.form}>
+      <FormControl variant="outlined" className={classes.form}>
         <InputLabel >Fragância</InputLabel>
         <Select
           labelId="demo-simple-select-outlined-label"
@@ -108,19 +108,19 @@ export default function SignUp() {
           <MenuItem value={10}> Glicerina à base de Leite de Cabra</MenuItem>
          
         </Select>
-      </FormControl> */}
+      </FormControl> 
 
        
-
-     {/*  <Checkbox
+{/* 
+      <Checkbox
       id="showConfig"
       type="checkbox"
       label="Desejo"
       checked={showConf} 
       onChange={() => setShowConf(!showConf)}/> Personalizar
-      {showConf && <Config/>} */}
+      {showConf && <Config/>} 
              
-          
+           */}
 
            
      

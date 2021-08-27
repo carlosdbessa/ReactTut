@@ -46,6 +46,10 @@ export default function FAQS() {
                 title: "Posso personalizar com nome apenas um dos sabonetes da minha encomenda? ",
                 content: <p>Sim, pode personalizar o número de sabonetes que desejar na sua encomenda.</p>,
             },
+            {
+                title: "Qual o tempo de entrega de uma encomenda? ",
+                content: <p> Os tempos de entrega podem variar consoante a zona do país.</p>,
+            },
         ],
     };
     
