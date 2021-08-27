@@ -14,6 +14,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
+import Config from './pages/Config';
 
 
 
@@ -109,35 +110,33 @@ export default function SignUp() {
       </FormControl>
 
        
-              <FormControlLabel
-                control={<Checkbox onClick={() => setShowConf(!showConf)}/>}
+
+      <Checkbox
+      id="showConfig"
+      type="checkbox"
+      label="Desejo"
+      checked={showConf} 
+      onChange={() => setShowConf(!showConf)}
+      /> Personalizar
+      {showConf && <Config/>}
+              {/* <FormControlLabel
+                control={<Checkbox /> }
+                
                 
                 label="Desejo personalizar o sabonete?"
-              />
+              />  */} 
+              {/* <Checkbox
+        checked={showConf}
+        onChange={handleChange}
+        inputProps={{ 'aria-label': 'primary checkbox' }}
+        label ="Desejo personalizar o sabonete?"
+      /> */}
           
 
-            <form className={classes.form} noValidate>
-              <TextField
-                autoComplete="fname"
-                name="Nome do Bebé"
-                variant="outlined"
-                fullWidth
-                id="NomeDoBeBe"
-                label="Nome do Bebé"
-                autoFocus
-              />
-              </form> 
-              <Button
-          className={classes.submit}
-            type="submit"
-            fullWidth
-            variant="contained"
-            color="primary"
-          >Personalizar</Button>  
-
-      <button  onClick={() => setShowPrice(!showPrice)}>Tabela de Preços</button>
+           
+     
+<Button  onClick={() => setShowPrice(!showPrice)}>Tabela de Preços</Button>
     {showPrice && <PricingTables/>}
-   
 
           
       </div>

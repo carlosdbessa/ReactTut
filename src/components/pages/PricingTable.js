@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react';
 import {PricingTable, PricingSlot, PricingDetail} from 'react-pricing-table';
+import Button from '@material-ui/core/Button';
+
+
 
 function PricingTables() {
+
+    
+    
     return (
         <div>
+
+
             <PricingTable  highlightColor='#1976D2'>
     <PricingSlot   title='Pack I' priceText='16 €'>
         <PricingDetail> <b>2</b> sabonetes</PricingDetail>
