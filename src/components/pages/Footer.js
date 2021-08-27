@@ -17,7 +17,7 @@ function Footer() {
                     <div className='footer-link-items'>
                         <h2>Contacte-nos</h2>
                         <Link to='/'>Contactos</Link>
-                        <Link to='/FAQS'>FAQ</Link>
+                        <Link to='/FAQS'>Perguntas Frequentes</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>

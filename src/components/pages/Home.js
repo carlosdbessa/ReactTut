@@ -12,9 +12,9 @@ import FAQS from './Faqs';
      return (
          <>
             <HeroSection />
-             <PricingTables />
+             {/* <PricingTables /> */}
             
-              {/* <Cards /> */}
+              <Cards />
              <Contacts /> 
             <Footer />
          </>

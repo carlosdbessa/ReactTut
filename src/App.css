@@ -252,7 +252,7 @@ border-color: var(--smokepink) !important;
 }
 
 .MuiButton-root {
-  color:whitesmoke;
+  color:#fff !important;
   padding: 10px 26px;
   font-size: 0.875rem;
   min-width: 64px;
@@ -264,6 +264,7 @@ border-color: var(--smokepink) !important;
   border-radius: 4px;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
+  background: #d19091 !important;
 
 }
 
@@ -1043,4 +1044,8 @@ body {
   padding-left: 4em;
   padding-right: 4em;
 
+}
+
+.styles_faq-row-wrapper__3vA1D h2 {
+  margin:auto;
 }

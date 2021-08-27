@@ -59,8 +59,9 @@ export default function SignUp() {
     setBase(event.target.value);
   };
 
-  const [showPrice, setShowPrice] = useState(true);
+  const [showPrice, setShowPrice] = useState(false);
   const [showConf, setShowConf] = useState(true);
+  
 
   return (
     <div>
@@ -68,11 +69,11 @@ export default function SignUp() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Typography component="h1" variant="h5">
+     {/*    <Typography component="h1" variant="h5">
           Personalizar Sabonete
-        </Typography>
+        </Typography> */}
         
-        <FormControl variant="outlined" className={classes.form}>
+        {/* <FormControl variant="outlined" className={classes.form}>
         <InputLabel >Fragância</InputLabel>
         <Select
           labelId="demo-simple-select-outlined-label"
@@ -107,30 +108,18 @@ export default function SignUp() {
           <MenuItem value={10}> Glicerina à base de Leite de Cabra</MenuItem>
          
         </Select>
-      </FormControl>
+      </FormControl> */}
 
        
 
-      <Checkbox
+     {/*  <Checkbox
       id="showConfig"
       type="checkbox"
       label="Desejo"
       checked={showConf} 
-      onChange={() => setShowConf(!showConf)}
-      /> Personalizar
-      {showConf && <Config/>}
-              {/* <FormControlLabel
-                control={<Checkbox /> }
-                
-                
-                label="Desejo personalizar o sabonete?"
-              />  */} 
-              {/* <Checkbox
-        checked={showConf}
-        onChange={handleChange}
-        inputProps={{ 'aria-label': 'primary checkbox' }}
-        label ="Desejo personalizar o sabonete?"
-      /> */}
+      onChange={() => setShowConf(!showConf)}/> Personalizar
+      {showConf && <Config/>} */}
+             
           
 
            

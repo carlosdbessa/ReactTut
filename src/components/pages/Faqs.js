@@ -82,7 +82,7 @@ export default function FAQS() {
 
     return (
         <div>
-            <h2 className="section-title">Perguntas Frequentes </h2>
+                <h2>Perguntas Frequentes</h2>
 
             <div className="faq-style-wrapper">
                 <Faq data={data} styles={styles} getRowOptions={setRowsOption} />
