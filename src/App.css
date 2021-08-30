@@ -269,6 +269,7 @@ border-color: var(--smokepink) !important;
 }
 
 .MuiButtonBase-root {
+  margin-top: 50px !important;
   color: inherit;
   border: 0;
   cursor: pointer;
