@@ -46,7 +46,7 @@ function Footer() {
                         <i className='fab fa-instagram'/></a>
 
                         <a className='social-icon-link Payment'>
-                        <i className='fab fa-cc-paypal>'/></a>
+                        <i className='fab fa-apple-pay>'/></a>
                         
                         
                             
