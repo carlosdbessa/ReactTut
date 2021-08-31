@@ -44,6 +44,9 @@ function Footer() {
                         <i className='fas fa-envelope'/></a>
                         <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
                         <i className='fab fa-instagram'/></a>
+
+                        <a className='social-icon-link Payment'>
+                        <i className='fab fa-cc-paypal>'/></a>
                         
                         
                             
