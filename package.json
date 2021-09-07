@@ -23,6 +23,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-select": "^4.3.1",
+    "react-shopping-cart": "^1.9.5",
     "react-simple-image-slider": "^2.1.2",
     "reactstrap": "^8.9.0",
     "semantic-ui-react": "^2.0.3",

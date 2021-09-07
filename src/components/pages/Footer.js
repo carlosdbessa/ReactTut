@@ -27,6 +27,19 @@ function Footer() {
                       
                     </div>
                 </div>
+
+                <div className='footer-link-wrapper'>
+                    <div className='footer-link-items'>
+                        <h2>Testemunhos</h2>
+                        <a href="https://search.google.com/local/writereview?placeid=ChIJ2cbdpjTDrmsRoDlSGiJoHXw&source=g.page.m.rc._&laa=merchant-web-dashboard-card
+" target="_blank">Deixe aqui o seu comentário</a>
+                      
+                    </div>
+                </div>
+
+
+
+                
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
@@ -44,13 +57,9 @@ function Footer() {
                         <i className='fas fa-envelope'/></a>
                         <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
                         <i className='fab fa-instagram'/></a>
-
-                        <a className='social-icon-link Payment'>
-                        <i className='fab fa-apple-pay>'/></a>
-                        
-                        
-                            
-                
+                        {/* <br></br>
+                        <a className='social-icon-link instagram' >
+                        <i className='fab fa-apple-pay'/></a> */}
                         
                     </div>    
                 </div>

@@ -50,6 +50,12 @@ export default function FAQS() {
                 title: "Qual o tempo de entrega de uma encomenda? ",
                 content: <p> Os tempos de entrega podem variar consoante a zona do país.</p>,
             },
+            {
+                title: "Não consigo arranjar leite materno, posso fazer uma encomenda dos vossos sabonetes?  ",
+                content: <p> Sim. A BabySoap encontrará uma solução eficaz e natural para que possa
+                adquirir os nossos sabonetes mesmo que não possa disponibilizar o leite materno.
+                </p>,
+            },
         ],
     };
     

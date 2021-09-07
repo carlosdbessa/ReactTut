@@ -816,7 +816,7 @@ root {
 
 .navbar {
   background: linear-gradient(90deg, #d19091 0%, #8e97a7 100%);
-  height: 70px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -6,6 +6,8 @@ import Contacts from './Contacts';
 import Footer from './Footer';
 import PricingTables from './PricingTable';
 import FAQS from './Faqs';
+import App from './ShoppingCart'
+import ConnectedApp from './ShoppingCart';
 //import React from 'react'
  
  function Home() {
@@ -13,7 +15,8 @@ import FAQS from './Faqs';
          <>
             <HeroSection />
              {/* <PricingTables /> */}
-            
+                
+                {/* <App /> */}
               <Cards />
              <Contacts /> 
             <Footer />
