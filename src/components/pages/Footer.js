@@ -6,12 +6,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <div className='footer-container'>
-            
-            <div className='footer-links'>
+             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     {/* <div className='footer-link-items'>
                         <h2>Sobre Nós</h2>
-                        
                         <Link to='/'>Termos de Serviços</Link>
                     </div> */}
                     <div className='footer-link-items'>
@@ -23,23 +21,17 @@ function Footer() {
                {/*  <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Redes Sociais</h2>
-                        <a href="https://instagram.com/thebabysoap" target="_blank">Instagram</a>
-                      
+                        <a href="https://instagram.com/thebabysoap" target="_blank">Instagram</a>  
                     </div>
                 </div> */}
-
-                <div className='footer-link-wrapper'>
+        <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>Testemunhos</h2>
+                        <h3>Testemunhos</h3>
                         <a href="https://search.google.com/local/writereview?placeid=ChIJ2cbdpjTDrmsRoDlSGiJoHXw&source=g.page.m.rc._&laa=merchant-web-dashboard-card
 " target="_blank">Deixe aqui o seu comentário</a>
-                      
                     </div>
-                </div>
+        </div> 
 
-
-
-                
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
@@ -49,18 +41,12 @@ function Footer() {
                         </Link>
                     </div>
                     <small className='website-rights'> The Baby Soap © 2021</small>
+                   
                     <div className='social-icons'>
-                       
-                    {/* mailto:pedidos@babysoap.pt */}
-                        
                         <a className='social-icon-link mail' href="mailto:pedidos@babysoap.pt" target="_blank">
                         <i className='fas fa-envelope'/></a>
                         <a className='social-icon-link instagram' href="https://instagram.com/thebabysoap" target="_blank">
                         <i className='fab fa-instagram'/></a>
-                        {/* <br></br>
-                        <a className='social-icon-link instagram' >
-                        <i className='fab fa-apple-pay'/></a> */}
-                        
                     </div>    
                 </div>
             </section>
