@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>Redes Sociales</h2>
+                        <h2>Rede Sociales</h2>
                         <a href="https://instagram.com/thebabysoap" target="_blank">Instagram</a>
                       
                     </div>
