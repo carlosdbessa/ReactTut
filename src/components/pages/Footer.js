@@ -9,11 +9,11 @@ function Footer() {
             
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
+                    {/* <div className='footer-link-items'>
                         <h2>Sobre Nós</h2>
-                        {/* <Link to='/'>Testemunhos</Link> */}
+                        
                         <Link to='/'>Termos de Serviços</Link>
-                    </div>
+                    </div> */}
                     <div className='footer-link-items'>
                         <h2>Contacte-nos</h2>
                         <Link to='/'>Contactos</Link>
