@@ -20,13 +20,13 @@ function Footer() {
                         <Link to='/FAQS'>Perguntas Frequentes</Link>
                     </div>
                 </div>
-                <div className='footer-link-wrapper'>
+               {/*  <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Redes Sociais</h2>
                         <a href="https://instagram.com/thebabysoap" target="_blank">Instagram</a>
                       
                     </div>
-                </div>
+                </div> */}
 
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
