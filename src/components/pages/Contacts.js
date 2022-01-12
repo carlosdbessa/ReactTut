@@ -36,7 +36,7 @@ export default function SignIn() {
   function sendEmail(e) {
     e.preventDefault();
 
-emailjs.sendForm('encomendas_babysoap', 'template_produtos', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
+emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmDMbHgNTosWgN1PFc')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
