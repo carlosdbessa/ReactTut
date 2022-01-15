@@ -106,7 +106,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             fullWidth
             variant="contained"
             color="primary"
-            onClick={alert("Hello World!")}
+            // onClick={alert("Hello World!")}
             className={classes.submit}
 
           >
