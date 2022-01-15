@@ -45,6 +45,10 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
     e.target.reset()
 }
 
+onButtonClickHandler = () => {
+  window.alert('Mensagem Enviada')
+  };
+
   return (
     <Container component="main" maxWidth="xs" >
       <CssBaseline />
@@ -99,7 +103,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             autoFocus
           />
           
-          
+         
           
           <Button
             type="submit"
@@ -108,7 +112,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             color="primary"
             // onClick={alert("Hello World!")}
             className={classes.submit}
-
+            onClick={this.onButtonClickHandler}
           >
             Enviar
           </Button>
