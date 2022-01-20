@@ -8,9 +8,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import emailjs from "emailjs-com";
 
-import { useToasts } from "react-toast-notifications";
+//import { useToasts } from "react-toast-notifications";
 
-const { addToast } = useToasts();
+//const { addToast } = useToasts();
 
 const useStyles = makeStyles((theme) => ({
   paper: {
