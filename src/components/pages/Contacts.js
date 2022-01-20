@@ -50,6 +50,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
 
 
   return (
+    
     <Container component="main" maxWidth="xs" >
       <CssBaseline />
       <div className={classes.paper}>
@@ -103,10 +104,8 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             autoFocus
           />
           
+          <Toaster/>
          
-          {/* <button onClick={() => addToast("Success!", { appearance: "success" })}>
-          Success!
-        </button> */}
           <Button
             type="submit"
             fullWidth
@@ -114,10 +113,12 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             //class ="toast"
             color="primary"
             className={classes.submit} 
+            onClick={toast("Hello World")}
             //toast.success('Successfully toasted!')
             >
             Enviar1
           </Button>
+
         </form>
       </div>
       
