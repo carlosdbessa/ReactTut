@@ -8,7 +8,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import emailjs from "emailjs-com";
 
+import { useToasts } from "react-toast-notifications";
 
+const { addToast } = useToasts();
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -102,23 +104,20 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
           />
           
          
-          
-          <Button
+          <button onClick={() => addToast("Success!", { appearance: "success" })}>
+          Success!
+        </button>
+         {/*  <Button
             type="submit"
             fullWidth
             variant="contained"
+            //class ="toast"
             color="primary"
-            // onClick={alert("Hello World!")}
-            className={classes.submit}
-           
-          >
+            className={classes.submit} 
+            //toast.success('Successfully toasted!')
+            >
             Enviar
-          </Button>
-          
-          {/* <button onClick={alert("Hello World!")}>
-               Click Me
-            </button>; */}
-
+          </Button> */}
         </form>
       </div>
       
