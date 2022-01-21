@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import emailjs from "emailjs-com";
+import { Toaster } from "react-hot-toast";
 
 //import { useToasts } from "react-toast-notifications";
 
@@ -47,7 +48,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
     e.target.reset()
 }
 
-
+const sucessNotify = () => toast.success("Sucess!");
 
   return (
     
@@ -113,7 +114,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             //class ="toast"
             color="primary"
             className={classes.submit} 
-            onClick={toast("Hello World")}
+            onClick={sucessNotify}
             //toast.success('Successfully toasted!')
             >
             Enviar1
