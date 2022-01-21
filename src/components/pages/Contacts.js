@@ -105,8 +105,9 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             autoFocus
           />
           
-          <Toaster/>
-         
+          
+         <div >
+           <Toaster/>
           <Button
             type="submit"
             fullWidth
@@ -119,6 +120,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             >
             Enviar1
           </Button>
+          </div>
 
         </form>
       </div>
