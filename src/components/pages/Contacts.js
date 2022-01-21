@@ -114,7 +114,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             //class ="toast"
             color="primary"
             className={classes.submit} 
-            onClick={() => toast("🛎 Toast message sent!")}
+            onClick={() => toast("Mensagem enviada")}
             //toast.success('Successfully toasted!')
             >
             Enviar
