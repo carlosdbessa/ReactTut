@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import emailjs from "emailjs-com";
-import { Toaster } from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 
 //import { useToasts } from "react-toast-notifications";
 
@@ -106,8 +106,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
           />
           
           
-         <div >
-           <Toaster/>
+        
           <Button
             type="submit"
             fullWidth
@@ -120,7 +119,8 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             >
             Enviar1
           </Button>
-          </div>
+          <Toaster/>
+          
 
         </form>
       </div>
