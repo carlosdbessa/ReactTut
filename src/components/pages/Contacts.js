@@ -48,7 +48,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
     e.target.reset()
 }
 
-const sucessNotify = () => toast.success("Sucess!");
+//const sucessNotify = () => toast.success("Sucess!");
 
   return (
     
@@ -114,7 +114,7 @@ const sucessNotify = () => toast.success("Sucess!");
             //class ="toast"
             color="primary"
             className={classes.submit} 
-            onClick={sucessNotify}
+            onClick={() => toast("🛎 Toast message sent!")}
             //toast.success('Successfully toasted!')
             >
             Enviar1
