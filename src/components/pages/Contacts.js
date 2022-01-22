@@ -104,7 +104,7 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             label="Mensagem"
             name="mensagem"
             autoComplete="mensagem"
-            required
+            
           />
           
           
