@@ -63,24 +63,26 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
           <TextField
             variant="outlined"
             margin="normal"
-            required
+            
             fullWidth
             id="nome"
             label="Nome"
             name="nome"
             autoComplete="nome"
-            autoFocus
+            required
+            //autoFocus
           />
           <TextField
             variant="outlined"
             margin="normal"
-            required
+            
             fullWidth
             id="email"
             label="Email"
             name="email"
             autoComplete="email"
-            autoFocus
+            required
+            //autoFocus
           />
           <TextField
             variant="outlined"
@@ -91,18 +93,18 @@ emailjs.sendForm('service_babysoap', 'template_produtos', e.target, 'user_roqJmD
             label="Assunto"
             name="assunto"
             autoComplete="assunto"
-            autoFocus
+            //autoFocus
           />
           <TextField
             variant="outlined"
             margin="normal"
-            required
+            
             fullWidth
             id="mensagem"
             label="Mensagem"
             name="mensagem"
             autoComplete="mensagem"
-            autoFocus
+            required
           />
           
           
