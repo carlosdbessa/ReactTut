@@ -13,7 +13,7 @@ function Footer() {
                         <Link to='/'>Termos de Serviços</Link>
                     </div> */}
                     <div className='footer-link-items'>
-                        <h2>Contacte-nos</h2>
+                        <h3>Contacte-nos</h3>
                         <Link to='/'>Contactos</Link>
                         <Link to='/FAQS'>Perguntas Frequentes</Link>
                     </div>
